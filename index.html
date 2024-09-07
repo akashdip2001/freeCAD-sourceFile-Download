@@ -3,9 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Download Files</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+        }
+        .btn {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            margin: 10px;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    Comming Soon
+    <div class="container">
+        <a href="https://drive.google.com/uc?export=download&id=1B_xinwR7iXJ1xlNbeyHuUgU4_BCLsvFD" class="btn" download>Download File 1</a>
+        <a href="https://drive.google.com/uc?export=download&id=1BTa-gLr9tvJ1uygJ__dgQWepLHr6fyxc" class="btn" download>Download File 2</a>
+    </div>
 </body>
 </html>
